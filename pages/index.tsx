@@ -5,7 +5,8 @@ export default function Home() {
   return (
     <div>
       Hello World. <Link href="/about">About</Link>
-      <img src="/img1.jpg" alt='' />
+      <Image src="/img1.jpg" alt='' width='100' height='100'/>
     </div>
+    
   )
 }
